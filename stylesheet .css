@@ -95,15 +95,19 @@ button:hover {
 
 
 @media (max-width:768px) {
+  .container{
+    width:100%;
+  }
   .logo img{
-    width: 150px;
+    width: 200px;
   }
   .countdown{
     display: none;
   }
+  
   p{
-    font-size:1rem;
-    font-weight: 300;
+    font-size:1.3rem;
+    font-weight: 600;
   }
   
   button{
@@ -111,7 +115,7 @@ button:hover {
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 300;
-    width: 55%;
+    width: 75%;
     margin: 0;
   }
   
@@ -120,7 +124,7 @@ input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 20px;
   text-align: center;
-  width: 70%;
+  width: 90%;
 }
 
 }
