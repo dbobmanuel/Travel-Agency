@@ -99,15 +99,15 @@ button:hover {
     width:85%;
   }
   .logo img{
-    width: 250px;
+    width: 300px;
   }
   .countdown{
     display: none;
   }
   
   p{
-    font-size:1rem;
-    font-weight: 400;
+    font-size:0.9rem;
+    font-weight: 300;
   }
   button{
     padding: 10px 10px;
