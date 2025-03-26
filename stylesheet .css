@@ -22,7 +22,7 @@ body {
 p {
   font-size:1.5em;
   margin-bottom: 5px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Serif;
 }
 
 .logo{
@@ -96,17 +96,17 @@ button:hover {
 
 @media (max-width:768px) {
   .container{
-    width:100%;
+    width:85%;
   }
   .logo img{
-    width: 200px;
+    width: 250px;
   }
   .countdown{
     display: none;
   }
   
   p{
-    font-size:1.3rem;
+    font-size:1.1rem;
     font-weight: 600;
   }
   
@@ -115,7 +115,7 @@ button:hover {
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 300;
-    width: 75%;
+    width: 65%;
     margin: 0;
   }
   
@@ -124,7 +124,7 @@ input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 20px;
   text-align: center;
-  width: 90%;
+  width: 80%;
 }
 
 }
